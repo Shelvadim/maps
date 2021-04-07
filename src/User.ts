@@ -15,4 +15,8 @@ export class User{
         };
     }
 
+    markerContent():string{
+        return`User name: ${this.name}`;
+    }
+
 } 
